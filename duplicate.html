@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0 shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Logistics Execution String Tools</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel='stylesheet'><link rel="stylesheet" href="./assets/style.css">
+<!-- <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css"> -->
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">Logistics Execution</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./duplicate.html">Check Duplicates
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./agecalculator.html">Age Calculator
+                </a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="./participantformatter.html">Participant Formatter</a>
+              </li>
+                            <li class="nav-item">
+                <a class="nav-link" href="./sixshooter.html">Six Shooter/Groups</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./straightforecast.html">SFC/EDC</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./internationalsformatter.html">Intls Formatter</a>
+              </li>
+
+            </ul>
+
+          </div>
+    
+          </div>
+        </div>
+      </nav>
+</header>
+<main>
+<div class="container">
+    <div class="row">
+
+        <h2 class="pt-5">Duplicate Checker</h2>
+        <!-- <div class="col"> -->
+            <div id="actions" class="">
+                <div>
+                 <button id="clear" class="btn btn-warning btn-lg">Clear</button>
+                <button id="copy" class="btn btn-info btn-lg">Copy</button>
+               
+                </div>
+                <label class="pure-material-switch">
+                        <input id="spellcheck" type="checkbox" checked>
+                        <span>Spell Check</span>
+                    </label>
+            </div>
+            <div id="options">
+                <label class="pure-material-slider">
+                <input id="length" type="range" min="1" max="10" value="4"class="dark">
+                <span>Minimum Word Length: <output>4</output></span>
+                </label>
+            </div>
+            <hr>
+            <div id="text" style="width: 50rem;">
+                <textarea placeholder="Paste here...">
+Designed to detect double/duplicate participants, teams and its frequencies regardless if it is in lower, upper, alternate cases. Please see below:
+            
+Logistics
+logistiCS
+exEcution
+Execution
+
+Click inside the box to clear the textarea and paste participants.
+
+            </textarea>
+                <div id="highlights"></div>
+            </div>
+
+            <ol id="list"></ol>
+    </div>
+</div>
+  
+</main>
+
+<footer class="fixed-bottom">Created by CED ©</footer>
+
+
+
+<template>
+    <li class="item">
+        <label>
+            <input class="hidden" type="checkbox">
+            <span class="count"></span>
+            <span class="word"></span>
+        </label>
+    </li>
+</template>
+<!-- partial -->
+  <script  src="./assets/script.js"></script>
+
+
+</body>
+</html>

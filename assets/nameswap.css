@@ -1,0 +1,257 @@
+html {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 65.5%;
+    font-weight: normal;
+  }
+
+
+  .photo_wrapper{
+    display: flex;
+  }
+.wrappertwo{
+  border-left:1.8px solid #090d09
+}
+
+  .photomeme{
+    display: flex;
+    align-self: flex-end;
+    height: 70px;
+    width: 70px;
+
+  
+  }
+
+
+  .display_photo {
+      height: 4rem;
+      width: 4rem;
+      align-items: center;
+      border-radius: 50%;
+      margin-right: 10px;
+      text-align: justify;
+
+  }
+
+  .dont_you{
+    color: aliceblue;
+    font-size: small;
+  }
+
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  header {
+    padding: 0, 1;
+    margin: 0, 1, 2, 5;
+
+  }
+
+  main {  
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1.2rem;
+  }
+
+
+  #text {
+    position: relative;
+    flex: 1 0 0;
+    display: flex;
+    padding: 0 1.2rem;
+    transition: height 0.3s;
+  }
+
+
+
+  textarea,
+  #highlights {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    border: solid 0.1rem rgba(0, 0, 0, 0.54);
+    border-radius: 0.4rem;
+    padding: 1.3rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2rem;
+    outline: none;
+    transition: height 0.3s;
+  }
+  
+  textarea {
+    box-sizing: border-box;
+    width: 60%;
+    height: 400px;
+    background: transparent;
+    resize: none;
+    border-color: #014572;
+  }
+
+  textarea:focus {
+    border: solid 0.2rem #00c4de;
+    padding: 1.2rem;
+  }
+  
+  #result {
+    border: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2rem;
+    outline: none;
+  
+  }
+
+  .card {
+    border: none;
+
+  }
+
+    
+
+
+  
+
+  
+
+
+input[type=text]{
+    width:60%;
+    border:2px solid #014572;
+    border-radius:4px;
+    margin:8px 0 5px 0;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus{
+    border-color:#00c4de;
+    box-shadow:0 0 8px 0 #00c4de;
+  }
+
+
+  #navigation {
+
+  background-color: #014572;
+}
+
+
+.btn {
+
+  background-color: #014572;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #014572;
+  /*border-radius: 5px 5px;*/
+  vertical-align: top;
+ /* width: 70px;
+  height: 40px;*/
+  font-weight: 500;
+  color:  white;
+
+}
+
+
+.btn:hover{
+
+  background-color: #00c4de;
+  border-color: #00c4de;
+  color: white;
+
+}
+
+.btn:active{
+
+  background-color: #00c4de;
+  border-color: #00c4de;
+  color: white;
+
+}
+
+
+.fa-minus-circle{
+
+  /*background-color: #014572;*/
+  /*border-color: #014572;*/
+  color: #014572;
+  border-radius: 25px;
+  /*background: #73AD21;*/
+  /*padding: 20px;*/
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+
+hr {
+border: 2px solid #014572; 
+border-radius: 5px;
+} 
+
+
+
+
+
+/*Age Calculator*/
+
+*{
+    font-size:16px;
+    font-family:helvetica, arial, sans-serif;
+    box-sizing:border-box;
+}
+input[type="date"]{
+    padding:7px;
+    width: 30%;
+   
+}
+
+.calc{
+    border:none;
+    padding:12px;
+    color:white;
+    background-color:#014572;
+    display:inline-block;
+    margin:0;
+}
+.calc:focus, .calc:hover{
+    outline:none;
+    cursor:pointer;
+}
+h3{
+    font-size:30px;
+    color:#014572;
+    text-align:center;
+}
+h3>span{
+    font-size:30px;
+    color:black;
+}
+.form{
+    padding:10px;
+    width:70%;
+   margin: 50px 100px 75px 425px;
+    /*position: relative;*/
+      
+}
+.form>span{
+    font-size:12px;
+    color:#ccc; 
+    display:block;
+    text-align:justify;
+    margin-left:4rem;
+    margin-bottom:8px;
+    font-weight: 700;
+}
+
