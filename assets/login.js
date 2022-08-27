@@ -5,7 +5,6 @@ function validation(){
 
     // if(input_text.value.length <= 3 || input_password.value.length <= 3 )
 	if(input_text.value === 'cededu'|| input_password.value === 'Kambi2022' ){
-        alert(" You are now logged in! ")
 		return true;
 	}
 	else{
